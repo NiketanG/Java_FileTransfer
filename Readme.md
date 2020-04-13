@@ -1,8 +1,8 @@
-#File Sharing Program for transferring files over network
+<h1>File Sharing Program for transferring files over network</h1>
 
 The program can be used to transfer any file between computers connected in a network.
 
-Steps to use:
+<b>Steps to use:</b>
 1. Start the Server Application on the Machine from where you want to send the file from.
 2. In the Server Application, click on the Browse button and then select the file that you want to share.
 3. Then click Start File Transfer.
@@ -14,5 +14,5 @@ Steps to use:
 
 Currently, files upto 1GB can be transferred. 
 
-Speed:
+<b>Speed:</b>
 Under optimum conditions, a file of 900MB can be transferred in around 10-20 Seconds. 
