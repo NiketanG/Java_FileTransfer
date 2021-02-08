@@ -133,11 +133,6 @@ public class Server extends JFrame implements ActionListener {
 
             os.flush();
             
-            status.setText("File transfer Complete.");
-
-        } catch (IOException e) {
-            e.printStackTrace();
-        } finally {
             socket.close();
             server.close();
             br.close();
@@ -145,8 +140,12 @@ public class Server extends JFrame implements ActionListener {
             os.close();
             bin.close();
             fin.close();
-            
+            System.out.println("File transfer Complete");
+            status.setText("File transfer Complete.");
             System.out.println("Connection Closed");
+
+        } catch (IOException e) {
+            e.printStackTrace();
         }
     }
     
